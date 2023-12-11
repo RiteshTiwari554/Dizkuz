@@ -1,4 +1,4 @@
-#Dizkuz
+###**Dizkuz**
 Dizkuz is a platform for a complete organisation to work seemlessly on any project. Seemless working is made possible by this app because it provides the following features-:
 
 1. Create your account.

@@ -1,0 +1,67 @@
+.CategoryConainer {
+     display: flex;
+     flex-direction: column;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     padding-left: 300px;
+     padding-right: 300px;
+}
+
+.OrganisationButton2 {
+     display: flex;
+     flex-direction: row;
+}
+
+.orgbtn_ {
+     width: 100%;
+     margin: 10px;
+}
+
+.SpinnerContainer {
+     height: 70vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+     .CategoryConainer {
+          padding-left: 200px;
+          padding-right: 200px;
+     }
+}
+
+@media screen and (max-width: 1140px) {
+     .CategoryConainer {
+          padding-left: 150px;
+          padding-right: 150px;
+     }
+}
+
+@media screen and (max-width: 920px) {
+     .CategoryConainer {
+          padding-left: 100px;
+          padding-right: 100px;
+     }
+}
+
+@media screen and (max-width: 720px) {
+     .CategoryConainer {
+          padding-left: 60px;
+          padding-right: 60px;
+     }
+}
+
+@media screen and (max-width: 540px) {
+     .CategoryConainer {
+          padding-left: 30px;
+          padding-right: 30px;
+     }
+}
+
+@media screen and (max-width: 450px) {
+     .CategoryConainer {
+          padding-left: 10px;
+          padding-right: 10px;
+     }
+}

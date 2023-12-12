@@ -1,0 +1,32 @@
+.ChatPageContainer{
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(200, 200, 200);
+    height: 100%;
+}
+
+.ChatPageContainer2{
+    width: 100%;
+    max-width: 880px;
+}
+
+@media screen and (max-width: 860px) {
+    .ChatPageContainer{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .ChatPageContainer{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ChatPageContainer{
+        padding: 5px;
+    }
+}

@@ -1,0 +1,355 @@
+/* //============================================================================ NavBar */
+.NavBarC {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+}
+
+/* //============================================================================ Footer */
+
+.FooterContainer {
+     background-color: rgb(34, 37, 41);
+     padding: 200px;
+     padding-top: 20px;
+     padding-bottom: 150px;
+     color: white;
+}
+
+@media screen and (max-width: 920px) {
+     .FooterContainer {
+          padding: 100px;
+          padding-top: 20px;
+          padding-bottom: 150px;
+     }
+}
+
+@media screen and (max-width: 640px) {
+     .FooterContainer {
+          padding: 50px;
+          padding-top: 20px;
+          padding-bottom: 150px;
+     }
+}
+
+@media screen and (max-width: 400px) {
+     .FooterContainer {
+          padding: 25px;
+          padding-top: 20px;
+          padding-bottom: 150px;
+     }
+}
+
+/* //============================================================================ OrganisationCard */
+
+.OrganisationCardOuter {
+     /* height: 240px; */
+     width: 300px;
+     overflow: hidden;
+     border: 1px solid black;
+     border-radius: 5px;
+     margin: 5px;
+     box-shadow: 0 0 2px rgb(176, 190, 201);
+}
+
+.OrganisationCardOuter:hover {
+     box-shadow: 0 0 6px rgb(137, 148, 156);
+     border: 1.5px solid black;
+}
+
+.OrganisationTitle {
+     text-align: center;
+     height: 30px;
+     background-color: white;
+}
+
+.OrganisationLogo {
+     height: 180px;
+     width: 300px;
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+}
+
+.OrganisationButtons {
+     display: flex;
+     flex-direction: row;
+
+     align-items: center;
+     justify-content: space-between;
+
+     padding: 5px;
+}
+
+.orgbtn {
+     width: 100%;
+     margin: 5px;
+}
+
+@media screen and (max-width: 920px) {
+     .OrganisationCardOuter {
+          /* height: 200px; */
+          width: 250px;
+     }
+
+     .OrganisationLogo {
+          height: 150px;
+          width: 250px;
+     }
+}
+
+@media screen and (max-width: 640px) {
+     .OrganisationCardOuter {
+          /* height: 160px; */
+          width: 200px;
+     }
+
+     .OrganisationLogo {
+          height: 120px;
+          width: 200px;
+     }
+
+     .OrganisationButtons {
+          flex-direction: column;
+     }
+}
+
+/* //============================================================================ CategoryCard */
+
+.CategoryCardOuter {
+     margin: 10px;
+     padding: 10px;
+     border: 1px solid black;
+     border-radius: 5px;
+}
+
+.CategoryCardOuter:hover {
+     box-shadow: 0px 0px 10px rgb(167, 185, 205);
+     border: 1.5px solid black;
+}
+
+.CategoryCardTitle {
+     text-align: start;
+     background-color: rgb(152, 255, 219);
+     padding: 5px;
+     border: 1px solid aquamarine;
+     border-radius: 5px;
+}
+
+.CategoryCardDescription {
+     /* user-select: text; */
+     text-align: end;
+}
+
+/* //============================================================================ IssueCard */
+
+.IssueCardContainer {
+     width: 300px;
+     /* height: 400px; */
+     border: 1px solid black;
+     border-radius: 5px;
+     margin: 10px;
+}
+
+.IssueCardContainer:hover {
+     box-shadow: 0px 0px 10px rgb(167, 185, 205);
+     border: 1.5px solid black;
+}
+
+/* //============================================================================ MessageCard */
+
+.messageCardOuterOther {
+     padding: 5px;
+     width: 100%;
+     display: flex;
+     flex-direction: row-reverse;
+}
+
+.messageCardOuterUser {
+     padding: 5px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+}
+
+.MessageCardUser {
+     max-width: 70%;
+     /* border: 1px solid black; */
+     min-width: 20%;
+     padding: 5px;
+     border-radius: 5px;
+     text-align: start;
+     background-color: rgb(60, 60, 60);
+     color: white;
+     /* box-shadow: 0px 0px 7px rgb(183, 195, 195); */
+}
+
+.MessageCardOther {
+     max-width: 70%;
+     /* border: 1px solid black; */
+     min-width: 20%;
+     padding: 5px;
+     border-radius: 5px;
+     text-align: start;
+     background-color: white;
+     color: rgb(46, 46, 46);
+}
+
+/* //============================================================================ MessageInputBar */
+.MessageInputBar {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     padding: 10px;
+     background-color: white;
+     display: flex;
+     /* flex-direction: row; */
+     justify-content: center;
+}
+
+.MessageBar {
+     width: 880px;
+     display: flex;
+     flex-direction: row;
+}
+
+.Inputmsg {
+     width: 100%;
+     margin: 3px;
+}
+
+.sendBtn {
+     margin: 3px;
+}
+
+/* //============================================================================ Profile Picture */
+.PfpConainter {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+}
+
+.OuterCirclePfp {
+     height: 160px;
+     width: 160px;
+}
+
+@media screen and (max-width: 740px) {
+     .OuterCirclePfp {
+          height: 120px;
+          width: 120px;
+     }
+}
+
+@media screen and (max-width: 640px) {
+     .OuterCirclePfp {
+          height: 160px;
+          width: 160px;
+     }
+}
+
+/* //============================================================================ Members Card */
+
+.OuterContainer {
+     text-align: left;
+     padding: 10px 15px 10px 15px;
+     margin: 5px;
+     border: 0.5px solid black;
+     border-radius: 10px;
+     box-shadow: 5px 5px 7px rgba(156, 168, 181, 0.489);
+     max-width: 800px;
+     width: 70%;
+}
+
+/* //============================================================================ DIZKUZ TEXT */
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.ContText {
+     background-color: #c5d8d6;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 90vh;
+}
+.waviy {
+     position: relative;
+}
+.waviy span {
+     position: relative;
+     display: inline-block;
+     font-size: 40px;
+     color: #000c1e;
+     text-transform: uppercase;
+     animation: flip 2s infinite;
+     animation-delay: calc(0.2s * var(--i));
+}
+@keyframes flip {
+     0%,
+     80% {
+          transform: rotateY(360deg);
+     }
+}
+
+/* //============================================================================ Creaters */
+
+.UserCardContainer {
+     display: flex;
+     /* width: 1100px; */
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.UserCardOuterContainer {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+
+@media screen and (max-width: 1120px) {
+     .UserCardContainer {
+          max-width: 560px;
+     }
+}
+
+@media screen and (max-width: 541px) {
+     .UserCardContainer {
+          max-width: 277px;
+     }
+}
+
+/* //============================================================================ UserCard */
+
+.UserCardMainContainer {
+     height: 400px;
+     margin: 10px;
+     width: 250px;
+     border-radius: 7px;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+          2px 2px 5px rgba(255, 255, 255, 0.5) inset;
+     background-color: aliceblue;
+}
+
+.UserPhoto {
+     background-color: white;
+     border: 0.5px solid black;
+     border-radius: 5px;
+     margin: 5px;
+     width: 240px;
+     height: 240px;
+}
+
+.UserInfo {
+     height: 145px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}

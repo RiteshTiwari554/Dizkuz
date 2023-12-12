@@ -1,0 +1,55 @@
+.OrganisationPageContainer1 {
+     background-color: white;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+.OrganisationPageContainer2 {
+     display: inline-flex;
+     width: 1240px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+
+.SpinnerContainer {
+     height: 70vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+@media screen and (max-width: 1539px) {
+     .OrganisationPageContainer2 {
+          width: 930px;
+     }
+}
+
+@media screen and (max-width: 1229px) {
+     .OrganisationPageContainer2 {
+          width: 621px;
+     }
+}
+
+@media screen and (max-width: 920px) {
+     .OrganisationPageContainer2 {
+          width: 541px;
+     }
+}
+
+@media screen and (max-width: 640px) {
+     .OrganisationPageContainer2 {
+          width: 420px;
+     }
+}
+
+@media screen and (max-width: 519px) {
+     .OrganisationPageContainer2 {
+          width: 210px;
+     }
+}

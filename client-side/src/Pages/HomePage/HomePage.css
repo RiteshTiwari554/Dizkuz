@@ -1,0 +1,98 @@
+.HomePageOuterContainer {
+     padding: 50px;
+     padding-top: 100px;
+}
+
+.HomePageProfileContainer {
+     padding: 10px;
+     margin: 10px;
+     text-align: start;
+}
+
+.HomePageUserInfo {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(214, 250, 238);
+     padding: 20px;
+     border: 2px solid aquamarine;
+     user-select: text;
+     border-radius: 5px;
+     flex-direction: row;
+}
+
+@media screen and (max-width: 640px) {
+     .HomePageUserInfo {
+          flex-direction: column-reverse;
+     }
+     .title_he {
+          font-size: small;
+     }
+     .HomePageOuterContainer {
+          padding: 25px;
+          padding-top: 100px;
+     }
+}
+
+@media screen and (max-width: 420px) {
+     .HomePageOuterContainer {
+          padding: 10px;
+          padding-top: 100px;
+     }
+}
+
+@media screen and (max-width: 420px) {
+     .HomePageUserInfo {
+          font-size: x-small;
+     }
+}
+
+.HomePageButtons {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+.HBtn {
+     border: 1px solid black;
+     border-radius: 10px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 200px;
+     margin: 10px;
+}
+
+.HBtn:hover {
+     box-shadow: 0px 0px 10px rgb(167, 185, 205);
+     border: 1.5px solid black;
+     font-weight: bold;
+}
+
+.small {
+     height: 40px;
+     width: 260px;
+}
+
+.small:hover {
+     color: white;
+     background-color: black;
+}
+
+.abt {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.appInfo {
+     text-align: justify;
+}
+
+@media screen and (max-width: 640px) {
+     .HomePageButtons {
+          flex-direction: column;
+     }
+}

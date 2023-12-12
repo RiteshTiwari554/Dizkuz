@@ -1,0 +1,27 @@
+{
+  "name": "server-side",
+  "version": "1.0.0",
+  "description": "Backend of the Dizkuz",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityarai0705/Dizkuz.git"
+  },
+  "author": "Aditya Raj Rai, Aditya Singh Yadav, Aishwarya Vikram Singh and Isha Vishwakarma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityarai0705/Dizkuz/issues"
+  },
+  "homepage": "https://github.com/adityarai0705/Dizkuz#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0"
+  }
+}

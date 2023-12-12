@@ -118,7 +118,6 @@ function NewCategoryModal(props) {
           </Modal>
      );
 }
-
 export default function CategoryPage(props) {
      const navigate = useNavigate();
 

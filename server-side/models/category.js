@@ -6,4 +6,5 @@ const CategorySchema = new Schema({
   OrganisationId: String,
 });
 
+
 module.exports = mongoose.model("Category", CategorySchema);

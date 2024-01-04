@@ -26,10 +26,10 @@ export default function Creaters() {
                               }
                          />
                          <UserCard
-                              name={"Isha Vishwakarma"}
-                              branch={"Electronics & Communication Engineering"}
+                              name={"Ritesh Tiwari"}
+                              branch={"Computer Science & Engineering"}
                               image={Isha}
-                              gitLink={"https://github.com/ishavishwakarma29"}
+                              gitLink={"https://github.com/RiteshTiwari554"}
                          />
                          <UserCard
                               name={"Aditya Singh Yadav"}

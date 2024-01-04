@@ -26,7 +26,7 @@ export default function Creaters() {
                               }
                          />
                          <UserCard
-                              name={"Ritesh Tiwari"}
+                              name={"Ritesh Tiwari"} 
                               branch={"Computer Science & Engineering"}
                               image={Isha}
                               gitLink={"https://github.com/RiteshTiwari554"}

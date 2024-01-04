@@ -18,10 +18,10 @@ export default function Footer() {
                     </a>
                     <br />
                     <a
-                         href="https://github.com/ishavishwakarma29"
+                         href="https://github.com/RiteshTiwari554"
                          style={{ textDecoration: "none", color: "azure" }}
                     >
-                         Isha Vishwakarma
+                         Ritesh Tiwari
                     </a>
                     <br />
                     <a

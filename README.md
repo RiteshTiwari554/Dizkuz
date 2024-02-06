@@ -8,6 +8,7 @@ Dizkuz is a platform for a complete organisation to work seemlessly on any proje
 4. Create categories inside organisation for raising issues.
 5. Raise issues into a category.
 6. Have discussions on a particular issue.
+7. 
    
 # Some additional features-:
 

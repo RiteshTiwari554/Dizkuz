@@ -5,10 +5,10 @@ Dizkuz is a platform for a complete organisation to work seemlessly on any proje
 1. Create your account.
 2. Create your organisation.
 3. Add members into your organisation.
-4. Create categories inside organisation for raising issues.
-5. Raise issues into a category.
-6. Have discussions on a particular issue.
-7. 
+5. Create categories inside organisation for raising issues.
+6. Raise issues into a category.
+7. Have discussions on a particular issue.
+8. 
    
 # Some additional features-:
 

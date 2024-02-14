@@ -30,4 +30,4 @@ Dizkuz is a platform for a complete organisation to work seemlessly on any proje
 6. Run the command "node server.js" in server.side.
 7. Open your local browser.
 8. Open the link http://localhost:3000/.
-9. Now our app is ready to use.
+9. Now our app is ready to use

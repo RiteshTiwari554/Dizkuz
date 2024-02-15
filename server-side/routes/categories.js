@@ -6,9 +6,11 @@ const User = require("../models/user");
 const Organisation = require("../models/organisation");
 const Category = require("../models/category");
 
+
 let router = express.Router();
 router.use(bodyParser.json());
 router.use(cors());
+
 
 const checkLogin = async (EMAIL, PASSWORD) => {
      let output = await User.findOne({ email: EMAIL }).exec();

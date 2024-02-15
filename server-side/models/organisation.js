@@ -7,3 +7,4 @@ const OrganisationSchema = new Schema({
 });
 
 module.exports = mongoose.model("Organisation", OrganisationSchema);
+
